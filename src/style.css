@@ -1,0 +1,80 @@
+body {
+    background-color: #11111b;
+    font-family: monospace;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.card {
+    background-color: #1e1e2e;
+    width: 75vw;
+    height: 50vh;
+    border-radius: 16px 0 0 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25), 4px 0 0 #eba0ac;
+    padding: 2.5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.h1 {
+    margin: 1vh;
+    color: #a6adc8;
+    font-size: 2.5em;
+}
+
+.button {
+    display: inline-block;
+    width: 7.5vw;
+    padding: 0.5vh 0;
+    text-align: center;
+    font-size: 2em;
+    color: #a6adc8;
+    background-color: #313244;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25), 0 4px 0 rgba(0, 0, 0, 0.25);
+    transition: all 0.2s ease;
+}
+
+.button:hover {
+    color: #cdd6f4;
+    transform: translateY(4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25), 0 0 0 rgba(0, 0, 0, 0.25);
+}
+
+.card-banner {
+    background-image: url("../img/banner1.jpg");
+    background-size: 300%;
+    border-radius: 1vh;
+    border: 0.25vh solid #eba0ac;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    width: 25vw;
+    margin-right: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-banner-text {
+    color: #cdd6f4;
+    font-size: 3em;
+    text-shadow: rgba(0, 0, 0, 1) 0 0 8px;
+    backdrop-filter: blur(5px);
+    padding: 0.5vh 2vh;
+    border-radius: 1vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.card-content {
+    width: 100vw;
+}
+
+a {
+    text-decoration: none;
+}
